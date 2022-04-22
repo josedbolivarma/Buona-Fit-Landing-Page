@@ -7,6 +7,8 @@ import Contact from './Contact';
 import Footer from '../components/Footer';
 import ExclusiveGroup from '../components/ExclusiveGroup';
 import CompletedGroup from '../components/CompletedGroup';
+import PrincipalBanner from '../components/PrincipalBanner';
+import FitGroup from '../components/FitGroup';
 
 const Home = () => {
   const classes = useStyles();
@@ -16,8 +18,10 @@ const Home = () => {
         <Banner />
         <Navbar />
         <div className={classes.home__container}>
+        <PrincipalBanner />
         <ExclusiveGroup />
         </div>
+        <FitGroup />
         <CompletedGroup />
         <div className={classes.home__container}>
         <Contact />
@@ -34,11 +38,11 @@ const useStyles = makeStyles((theme) => ({
         height: '100%',
         minHeight: '100vh',
         display: 'flex',
-        flexDirection: 'column'
+        flexDirection: 'column',
     },
     home__container: {
       width: '90%',
-      margin: '4rem auto'
+      margin: '0 auto'
     }
 }))
 

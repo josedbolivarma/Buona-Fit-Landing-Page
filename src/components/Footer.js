@@ -64,7 +64,8 @@ const useStyles = makeStyles((theme) => ({
             justifyContent: 'center',
             alignItems: 'center',
             padding: '4rem 0',
-            color: '#FFF'
+            color: '#FFF',
+            marginTop: '2rem'
         },
         footer__container: {
             width: '90%',

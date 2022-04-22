@@ -1,17 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 //Material UI
 import { makeStyles } from '@material-ui/core';
 import Header from './Header';
-import Navbar from './Navbar';
+
+const slides = [
+    {
+        id: 1,
+        url: 'https://res.cloudinary.com/duzncuogi/image/upload/v1650468560/samples/Buona-Fit-Demo-Day/proteins/nitro-tech_bqozxq.jpg'
+    },
+    {
+        id: 2,
+        url: 'https://res.cloudinary.com/duzncuogi/image/upload/v1650468560/samples/Buona-Fit-Demo-Day/proteins/naked-whey_lxebqk.jpg'
+    },
+    {
+        id: 3,
+        url: 'https://res.cloudinary.com/duzncuogi/image/upload/v1650468559/samples/Buona-Fit-Demo-Day/proteins/hidro-whey_dwhkee.jpg'
+    }
+]
 
 const Banner = () => {
   const classes = useStyles();
+
   return (
     <div className={classes.banner}>
             <Header />
         <div className={classes.banner__opacity}>
-        <img className={classes.banner__image} src='https://res.cloudinary.com/duzncuogi/image/upload/v1650328169/samples/Buona-Fit-Demo-Day/protein-1_nycp8e.jpg' alt='Banner Home' />
+          
+        <img 
+        className={classes.banner__image}
+        src='https://res.cloudinary.com/duzncuogi/image/upload/v1650339601/samples/Buona-Fit-Demo-Day/protein-1_khsax6.jpg'
+        alt='Protein'
+        />
         <div className={classes.banner__fadeBottom}></div>
         </div>
     </div>

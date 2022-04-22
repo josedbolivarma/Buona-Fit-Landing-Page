@@ -3,16 +3,18 @@ import React from 'react'
 // Material UI
 import { makeStyles, Typography } from '@material-ui/core';
 import { ButtonStyled } from '../styled/styledcomponents';
+import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
     const classes = useStyles();
 
   return (
+      <Fade left>
     <div className={classes.contact}>
-        <img className={classes.contact__image} src='https://media.istockphoto.com/photos/gym-background-dumbbell-on-blue-table-and-red-color-view-picture-id1193239112?k=20&m=1193239112&s=170667a&w=0&h=toSnApkOA4-RZJTyfZkQ6uifckctbaEUcN4bZJGfUak=' alt='Contact Image'/>
+        <img className={classes.contact__image} src='https://s1.1zoom.me/b5050/147/Fitness_Handbag_Jump_Colored_background_600380_1920x1080.jpg' alt='Contact'/>
 
         <div className={classes.contact__container}>
-            <Typography variant='h4' className={classes.contact__title}>Contactanos</Typography>
+            <Typography variant='h4' className={classes.contact__title}>Contáctanos</Typography>
             <form className={classes.contact__form}>
                 <div className={classes.contact__inputBox}>
                 <input className={classes.contact__input} type='text' placeholder='Llena este campo'/>
@@ -27,26 +29,31 @@ const Contact = () => {
             </form>
         </div>
     </div>
+    </Fade>
   )
 }
 
 const useStyles = makeStyles((theme) => ({
     contact: {
-        margin: '4rem 0',
         width: '100%',
         height: '400px',
         display: 'flex',
         position: 'relative',
         background:'#111',
+        margin: '4rem 0',
         boxshadow: ' 22px 22px 44px #aaaaaa,-22px -22px 44px #ffffff',
+        color: '#FFF',
         [theme.breakpoints.down('sm')]: {
-            backgroundImage: 'url("https://media.istockphoto.com/photos/dumbbell-gym-on-red-background-isolated-christmas-new-year-concept-picture-id1081823064?k=20&m=1081823064&s=170667a&w=0&h=U-OvAQBCOt0xd6VisI5y0GpuaZwweDFBZ8vmejmfmCU=")',
-            backgroundSize: 'cover'
+            backgroundImage: 'url("https://s1.1zoom.me/b5050/147/Fitness_Handbag_Jump_Colored_background_600380_1920x1080.jpg")',
+            backgroundSize: 'cover',
+            color: '#000',
         }
     },
     contact__image: {
         width: '40%',
         height: '400px',
+        objectFit: 'cover',
+        
         [theme.breakpoints.down('sm')]: {
             display: 'none',
         }
@@ -77,7 +84,6 @@ const useStyles = makeStyles((theme) => ({
         color: '#FFF'
     },
     contact__title: {
-        color: '#111',
         marginBottom: theme.spacing(4),
         fontWeight: '700',
         letterSpacing: '2px'
