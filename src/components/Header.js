@@ -22,7 +22,10 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: 'rgb(19,19,21)',
-        background: 'linear-gradient(90deg, rgba(19,19,21,1) 0%, rgba(29,29,30,1) 48%, rgba(30,30,31,1) 48%, rgba(49,50,55,1) 100%)',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundImage: 'url("https://www.desktopbackground.org/p/2014/10/15/840637_wallpapers-andorid-minimalist-blurry-sunset-hd-high-definition_2560x1440_h.jpg")'
+        // background: 'linear-gradient(90deg, rgba(19,19,21,1) 0%, rgba(29,29,30,1) 48%, rgba(30,30,31,1) 48%, rgba(49,50,55,1) 100%)',
 
     },  
     header__logo: {

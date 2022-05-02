@@ -29,3 +29,17 @@ export const ButtonStyled = styled.button`
         color: #ECECEC;
         font-size: 1.1rem;
     `;
+
+    export const WrapBanner = styled.div`
+    width: 100%;
+    height: ${props => props.height};
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image: url('${props => props.imageBg}');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: ${props => props.position}; // vertical
+    align-items: center;
+    padding: 2rem;
+    `;

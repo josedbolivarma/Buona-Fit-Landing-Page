@@ -23,7 +23,8 @@ const useStyles = makeStyles((theme) => ({
     navbar: {
         width: '100%',
         padding: '1.2rem 0',
-        backgroundColor: '#131315',
+        // backgroundColor: '#131315',
+        backgroundColor: '#000',
         boxShadow:  '20px 20px 60px #222,-20px -20px 60px #000',
     },
     navbar__container: {
