@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core';
 import { WrapBanner } from '../styled/styledcomponents';
 
-const AboutBannerTwo = ({title, description, image}) => {
+const AboutBannerTwo = ({title, description, image, link}) => {
   const classes = useStyles();
   return (
       <div className={classes.aboutBannerTwo}>
@@ -10,7 +10,7 @@ const AboutBannerTwo = ({title, description, image}) => {
             <div className={classes.aboutBannerTwo__content}>
                 <h2 className={classes.aboutBannerTwo__title}>{ title }</h2>
                 <p>{ description }</p>
-                <a className={classes.aboutBannerTwo__link} href='#'>Más Información</a>
+                <a className={classes.aboutBannerTwo__link} href='#'>{ link }</a>
             </div>  
     </div>
   )

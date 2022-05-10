@@ -13,8 +13,9 @@ const ExclusiveGroup = () => {
                 <img className={classes.exclusiveGroup__image} src="https://res.cloudinary.com/duzncuogi/image/upload/v1650339729/samples/Buona-Fit-Demo-Day/protein-youcandoit_aduass.jpg" alt="Exclusive Card" />
               <Fade right>
               <div className={classes.exclusiveGroup__content}>
-                  <ExclusiveTitle>Ahorros exclusivos $ 60,000 de descuento para usuarios premium</ExclusiveTitle>
-                <ExclusiveText className={classes.exclusiveGroup__text}>- Un campeón es alguien que se levanta cuando el otro no puede. <b>- William Harrison</b></ExclusiveText>
+                  <ExclusiveTitle>Ahorros exclusivos $ 60,000 de descuento para usuarios de nuestro sitio web</ExclusiveTitle>
+                <ExclusiveText className={classes.exclusiveGroup__text}>Compra todo lo que necesitas en Tienda Buona Fit, al mejor precio. Garantia de Productos.
+ Productos de Calidad.</ExclusiveText>
                 <ButtonStyled className={classes.exclusiveGroup__btn}>Empezar a planificar</ButtonStyled>
               </div>
               </Fade>

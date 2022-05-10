@@ -25,10 +25,10 @@ const Home = () => {
         </div>
         <FitGroup />
         <div className={classes.home__bannerContainer}>
-          <AboutBanner title='Entrena con nosotros' description="La mejor decisión en tu 2022" image="https://blogging-techies.com/wp-content/uploads/2020/07/1593662115_268_38-mejores-fondos-de-pantalla-negros-de-todo-el-mundo.jpg" />
-          <AboutBannerTwo title='Entrena con nosotros' description="La mejor decisión en tu 2022" image="https://colombia.com.co/wp-content/uploads/2021/07/GMN-Mega-Gainer-5-Libras-Tarro-Marketplace-Colombia.jpg" />
-          <AboutBannerTwo title='Entrena con nosotros' description="La mejor decisión en tu 2022" image="https://amfitnesstetic.cl/wp-content/uploads/2021/06/glutapro.jpg" />
-          <AboutBanner title='Entrena con nosotros' description="La mejor decisión en tu 2022" image="https://w0.peakpx.com/wallpaper/87/804/HD-wallpaper-tiger-white-animal-beautiful-black-king-lion-love-new-popular-tiger-white.jpg" />
+          <AboutBanner title='' link='' description="" image="https://blogging-techies.com/wp-content/uploads/2020/07/1593662115_268_38-mejores-fondos-de-pantalla-negros-de-todo-el-mundo.jpg" />
+          <AboutBannerTwo title='Entrena con nosotros' link='Más Información' description="La mejor decisión en tu 2022" image="https://colombia.com.co/wp-content/uploads/2021/07/GMN-Mega-Gainer-5-Libras-Tarro-Marketplace-Colombia.jpg" />
+          <AboutBannerTwo title='Entrena con nosotros' link='Más Información' description="La mejor decisión en tu 2022" image="https://amfitnesstetic.cl/wp-content/uploads/2021/06/glutapro.jpg" />
+          <AboutBanner title='' description="" link='' image="https://w0.peakpx.com/wallpaper/87/804/HD-wallpaper-tiger-white-animal-beautiful-black-king-lion-love-new-popular-tiger-white.jpg" />
 
         </div>
         <CompletedGroup />
