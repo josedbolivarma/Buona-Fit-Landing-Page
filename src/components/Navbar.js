@@ -9,10 +9,10 @@ const Navbar = () => {
     <div className={classes.navbar}>
         <div className={classes.navbar__container}>
             <div className={classes.navbar__menu}>
-                <a className={classes.navbar__link} href='#'>BLOG</a>
-                <a className={classes.navbar__link} href='#'>NUESTRA APP</a>
-                <a className={classes.navbar__link} href='#'>PRODUCTOS</a>
-                <a className={classes.navbar__link} href='#'>CONTACTO</a>
+                <a className={classes.navbar__link} href='https://buena-fit-version-1-0.vercel.app/login'>BLOG</a>
+                <a className={classes.navbar__link} href='https://buena-fit-version-1-0.vercel.app/login'>NUESTRA APP</a>
+                <a className={classes.navbar__link} href='https://buena-fit-version-1-0.vercel.app/login'>PRODUCTOS</a>
+                <a className={classes.navbar__link} href='#contacto'>CONTACTO</a>
             </div>
         </div>
     </div>

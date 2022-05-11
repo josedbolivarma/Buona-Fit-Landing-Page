@@ -10,7 +10,7 @@ const Contact = () => {
 
   return (
       <Fade left>
-    <div className={classes.contact}>
+    <div id='contacto' className={classes.contact}>
         <img className={classes.contact__image} src='https://s1.1zoom.me/b5050/147/Fitness_Handbag_Jump_Colored_background_600380_1920x1080.jpg' alt='Contact'/>
 
         <div className={classes.contact__container}>
