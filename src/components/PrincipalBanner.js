@@ -18,7 +18,7 @@ const PrincipalBanner = () => {
          <div className={classes.principalBanner__textContainer}>
          <Typography 
           className={classes.principalBanner__text}
-          variant='h4'>Tienda Buona Fit marca líder en la distribución de implementos deportivos científicamente comprobados en Colombia. ¡Compra online! Diversos métodos de pago. Envíos a todo el país. <br /> 
+          variant='h4'>Todos establecen objetivos cuando comienzan algo nuevo, en especial cuando ese algo nuevo es una aventura para alcanzar estado físico.<br />
           <b>Inscribete aquí.</b>
           </Typography>
          </div>

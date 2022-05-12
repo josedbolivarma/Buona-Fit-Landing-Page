@@ -11,6 +11,7 @@ import PrincipalBanner from '../components/PrincipalBanner';
 import FitGroup from '../components/FitGroup';
 import AboutBannerTwo from '../components/AboutBannerTwo';
 import AboutBanner from '../components/AboutBanner';
+import SecondBanner from '../components/SecondBanner';
 
 const Home = () => {
   const classes = useStyles();
@@ -19,6 +20,7 @@ const Home = () => {
     <div className={classes.home}>
         <Banner />
         <Navbar />
+        <SecondBanner />
         <div className={classes.home__container}>
         <PrincipalBanner />
         <ExclusiveGroup />
